@@ -1,0 +1,130 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+/* Remove default margin padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Section Start */
+.header {
+    padding: 0 240px;
+    padding-top: 50px;
+    background: rgba(255, 144, 14, 0.1);
+    text-align: center;
+}
+
+/* Navigation section start */
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    cursor: pointer;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+.nav ul li {
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+/* Navigation section end */
+
+/* Banner Section start */
+.banner {
+    margin-top: 102px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.banner-description {
+    font-weight: 400;
+    margin-top: 30px;
+    color: #727272;
+}
+
+.primary-btn {
+    background: #FF900E;
+    padding: 21px 25px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 32px;
+}
+
+.banner-img {
+    padding-top: 50px;
+    padding-bottom: 45px;
+}
+
+/* Banner Section end */
+/* Header Section end */
+
+/* main start */
+
+.features {
+    display: flex;
+    align-items: center;
+    margin: 85px 301px 130px 301px;
+}
+
+.features-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+}
+
+.features-details {
+    margin-left: 73px;
+
+}
+
+.features-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.features-title .text-color-gray {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.features-title .text-color-orange {
+    color: #FF900E;
+}
+
+.features-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+}
+
+/* main end */
+
+.hide {
+    display: none;
+}
